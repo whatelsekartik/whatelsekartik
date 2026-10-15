@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1640" viewBox="0 0 1200 1640" role="img" aria-labelledby="profile-board-title profile-board-desc"><title id="profile-board-title">Kartik Gaikwad — warm minimal profile and contribution skyline</title><desc id="profile-board-desc">Ivory and terracotta profile artwork with three contribution graphs arranged two above and one centred below.</desc><rect x="0" y="0" width="1200" height="1640" fill="#eee3d5" /><rect x="14" y="14" width="1172" height="1612" fill="#fbf7f0" rx="26" stroke="#dfcbb6" stroke-width="2" /><svg width="1130" height="282.5" viewBox="0 0 1200 300" role="img" aria-labelledby="profile-header-title profile-header-desc" x="35" y="30" preserveAspectRatio="xMidYMid meet">
   <title id="profile-header-title">Kartik Gaikwad</title>
-  <desc id="profile-header-desc">A warm, minimal profile banner in ivory, espresso, and muted terracotta.</desc>
+  <desc id="profile-header-desc">A warm, minimal profile banner in ivory, espresso, and muted terracotta, featuring whatifkartik.is-a.dev.</desc>
   <rect width="1200" height="300" rx="18" fill="#f8f3eb" />
   <circle cx="1040" cy="106" r="68" fill="#ead8c5" />
   <circle cx="1040" cy="106" r="42" fill="#bc754e" />
@@ -11,6 +11,8 @@
   <text x="68" y="153" fill="#40342c" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">Kartik Gaikwad.</text>
   <text x="72" y="202" fill="#76675a" font-family="Arial, Helvetica, sans-serif" font-size="21">Building thoughtful things for the web.</text>
   <line x1="72" y1="238" x2="238" y2="238" stroke="#bc754e" stroke-width="4" stroke-linecap="round" />
+  <circle cx="263" cy="238" r="4" fill="#bc754e" />
+  <text x="278" y="244" fill="#82452f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">whatifkartik.is-a.dev ↗</text>
 </svg><svg width="1120" height="149.33" viewBox="0 0 1200 160" role="img" aria-labelledby="profile-section-title profile-section-desc" x="40" y="340" preserveAspectRatio="xMidYMid meet">
   <title id="profile-section-title">Contribution skyline</title>
   <desc id="profile-section-desc">Warm ivory section banner with espresso text and muted terracotta accents.</desc>
