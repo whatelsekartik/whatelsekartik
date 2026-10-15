@@ -1,6 +1,5 @@
 {
   "type": "season",
-  "fileName": "profile-customize.svg",
   "backgroundColor": "#0c1a36",
   "foregroundColor": "#f8fafc",
   "strongColor": "#ffbf69",
@@ -34,5 +33,6 @@
     "#8f5b27",
     "#c78336",
     "#ffbf69"
-  ]
+  ],
+  "fileName": "main-account.svg"
 }
