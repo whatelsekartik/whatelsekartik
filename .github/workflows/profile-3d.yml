@@ -22,32 +22,19 @@ jobs:
           USERNAME: whatelsekartik
           SETTING_JSON: ".github/profile-3d-settings.json"
 
-      - name: Save main account graph
-        run: |
-          mkdir -p profile-3d-contrib
-          cp profile-customize.svg profile-3d-contrib/main-account.svg
-
       - name: Generate second account graph
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: aminotkartik
-          SETTING_JSON: ".github/profile-3d-settings.json"
-
-      - name: Save second account graph
-        run: |
-          cp profile-customize.svg profile-3d-contrib/second-account.svg
+          SETTING_JSON: ".github/profile-3d-settings-second.json"
 
       - name: Generate third account graph
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: sitemango
-          SETTING_JSON: ".github/profile-3d-settings.json"
-
-      - name: Save third account graph
-        run: |
-          cp profile-customize.svg profile-3d-contrib/third-account.svg
+          SETTING_JSON: ".github/profile-3d-settings-third.json"
 
       - name: Commit and push generated SVGs
         run: |
