@@ -1,38 +1,38 @@
 {
   "type": "season",
-  "backgroundColor": "#0c1a36",
-  "foregroundColor": "#f8fafc",
-  "strongColor": "#ffbf69",
-  "weakColor": "#52627a",
-  "radarColor": "#ffbf69",
+  "backgroundColor": "#f8f3eb",
+  "foregroundColor": "#40342c",
+  "strongColor": "#9c543a",
+  "weakColor": "#d9c8b5",
+  "radarColor": "#bc754e",
   "growingAnimation": true,
   "contribColors1": [
-    "#172033",
-    "#593b21",
-    "#8f5b27",
-    "#c78336",
-    "#ffbf69"
+    "#eee3d5",
+    "#e3c6ab",
+    "#d2a181",
+    "#b97652",
+    "#82452f"
   ],
   "contribColors2": [
-    "#172033",
-    "#593b21",
-    "#8f5b27",
-    "#c78336",
-    "#ffbf69"
+    "#eee3d5",
+    "#e3c6ab",
+    "#d2a181",
+    "#b97652",
+    "#82452f"
   ],
   "contribColors3": [
-    "#172033",
-    "#593b21",
-    "#8f5b27",
-    "#c78336",
-    "#ffbf69"
+    "#eee3d5",
+    "#e3c6ab",
+    "#d2a181",
+    "#b97652",
+    "#82452f"
   ],
   "contribColors4": [
-    "#172033",
-    "#593b21",
-    "#8f5b27",
-    "#c78336",
-    "#ffbf69"
+    "#eee3d5",
+    "#e3c6ab",
+    "#d2a181",
+    "#b97652",
+    "#82452f"
   ],
   "fileName": "main-account.svg"
 }
