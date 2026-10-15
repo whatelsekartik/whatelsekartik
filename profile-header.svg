@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Kartik Gaikwad</title>
-  <desc id="desc">A warm, minimal profile banner in ivory, espresso, and muted terracotta.</desc>
+  <desc id="desc">A warm, minimal profile banner in ivory, espresso, and muted terracotta, featuring whatifkartik.is-a.dev.</desc>
   <rect width="1200" height="300" rx="18" fill="#f8f3eb"/>
   <circle cx="1040" cy="106" r="68" fill="#ead8c5"/>
   <circle cx="1040" cy="106" r="42" fill="#bc754e"/>
@@ -10,4 +10,6 @@
   <text x="68" y="153" fill="#40342c" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">Kartik Gaikwad.</text>
   <text x="72" y="202" fill="#76675a" font-family="Arial, Helvetica, sans-serif" font-size="21">Building thoughtful things for the web.</text>
   <line x1="72" y1="238" x2="238" y2="238" stroke="#bc754e" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="263" cy="238" r="4" fill="#bc754e"/>
+  <text x="278" y="244" fill="#82452f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">whatifkartik.is-a.dev ↗</text>
 </svg>
