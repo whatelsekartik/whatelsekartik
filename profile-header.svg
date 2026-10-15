@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Kartik Gaikwad</title>
+  <desc id="desc">A warm, minimal profile banner in ivory, espresso, and muted terracotta.</desc>
+  <rect width="1200" height="300" rx="18" fill="#f8f3eb"/>
+  <circle cx="1040" cy="106" r="68" fill="#ead8c5"/>
+  <circle cx="1040" cy="106" r="42" fill="#bc754e"/>
+  <path d="M930 222 C980 180 1030 185 1070 222 S1150 258 1195 215" fill="none" stroke="#d2a181" stroke-width="2"/>
+  <path d="M918 242 C975 201 1028 207 1070 242 S1145 274 1200 236" fill="none" stroke="#d9c8b5" stroke-width="2"/>
+  <text x="72" y="70" fill="#9c543a" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">DEVELOPER · BUILDER · STUDENT</text>
+  <text x="68" y="153" fill="#40342c" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">Kartik Gaikwad.</text>
+  <text x="72" y="202" fill="#76675a" font-family="Arial, Helvetica, sans-serif" font-size="21">Building thoughtful things for the web.</text>
+  <line x1="72" y1="238" x2="238" y2="238" stroke="#bc754e" stroke-width="4" stroke-linecap="round"/>
+</svg>
