@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./profile-board.svg" width="100%" alt="Kartik Gaikwad — warm minimal profile and three-account contribution skyline">
+  <a href="https://whatifkartik.is-a.dev" target="_blank" rel="noopener noreferrer">
+    <img src="./profile-header.svg" width="100%" alt="Visit whatifkartik.is-a.dev — Kartik Gaikwad's portfolio">
+  </a>
 
   <p><strong>Web development · Software projects · Experiments</strong></p>
   <p>
@@ -16,3 +18,5 @@
     <a href="https://github.com/whatelsekartik/portfolio">Portfolio source</a>
   </p>
 </div>
+
+<img src="./profile-board.svg" width="100%" alt="Warm minimal contribution board showing three GitHub accounts">
