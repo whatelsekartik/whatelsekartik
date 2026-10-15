@@ -1,6 +1,15 @@
 name: GitHub Profile 3D Contributions
 
 on:
+  push:
+    paths:
+      - ".github/workflows/profile-3d.yml"
+      - ".github/profile-3d-settings*.json"
+      - ".github/scripts/compose-profile.py"
+      - "profile-header.svg"
+      - "profile-section-contributions.svg"
+      - "profile-footer.svg"
+      - "README.md"
   schedule:
     - cron: "17 5 * * *"
   workflow_dispatch:
@@ -36,11 +45,14 @@ jobs:
           USERNAME: sitemango
           SETTING_JSON: ".github/profile-3d-settings-third.json"
 
+      - name: Compose warm profile canvas
+        run: python3 .github/scripts/compose-profile.py
+
       - name: Commit and push generated SVGs
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A profile-3d-contrib
-          if git commit -m "Update 3D contribution graphs"; then
+          git add -A profile-3d-contrib profile-board.svg
+          if git commit -m "Update warm profile board and contribution graphs"; then
             git push
           fi
