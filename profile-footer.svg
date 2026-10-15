@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="105" viewBox="0 0 1200 105" role="img" aria-labelledby="title desc">
+  <title id="title">Made with curiosity</title>
+  <desc id="desc">A quiet warm ivory footer with dark readable text.</desc>
+  <rect width="1200" height="105" rx="16" fill="#f8f3eb"/>
+  <line x1="40" y1="22" x2="1160" y2="22" stroke="#d9c8b5" stroke-width="1"/>
+  <circle cx="86" cy="64" r="8" fill="#bc754e"/>
+  <text x="110" y="71" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#40342c">Made with curiosity, consistency, and care.</text>
+  <text x="1155" y="69" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#9c543a">KG / 2026</text>
+</svg>
