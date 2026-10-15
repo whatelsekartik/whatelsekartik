@@ -3,6 +3,8 @@
 
   <p><strong>Web development · Software projects · Experiments</strong></p>
   <p>
+    <a href="https://whatifkartik.is-a.dev">Portfolio website ↗</a>
+    &nbsp;·&nbsp;
     <a href="https://github.com/whatelsekartik">Main account</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/aminotkartik">AminotKartik</a>
