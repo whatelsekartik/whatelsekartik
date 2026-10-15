@@ -1,0 +1,38 @@
+{
+  "type": "season",
+  "backgroundColor": "#0c1a36",
+  "foregroundColor": "#f8fafc",
+  "strongColor": "#ffbf69",
+  "weakColor": "#52627a",
+  "radarColor": "#ffbf69",
+  "growingAnimation": true,
+  "contribColors1": [
+    "#172033",
+    "#593b21",
+    "#8f5b27",
+    "#c78336",
+    "#ffbf69"
+  ],
+  "contribColors2": [
+    "#172033",
+    "#593b21",
+    "#8f5b27",
+    "#c78336",
+    "#ffbf69"
+  ],
+  "contribColors3": [
+    "#172033",
+    "#593b21",
+    "#8f5b27",
+    "#c78336",
+    "#ffbf69"
+  ],
+  "contribColors4": [
+    "#172033",
+    "#593b21",
+    "#8f5b27",
+    "#c78336",
+    "#ffbf69"
+  ],
+  "fileName": "second-account.svg"
+}
