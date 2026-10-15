@@ -1,22 +1,23 @@
-## Hi there 👋
-
 ## Contribution Skyline
 
-<img src="./profile-3d-contrib/profile-customize.svg"
-     width="100%"
-     alt="3D Contribution Skyline">
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>WHATELSEKARTIK</strong><br><br>
+      <img src="./profile-3d-contrib/main-account.svg" width="100%" alt="whatelsekartik 3D contributions">
+    </td>
+    <td width="50%" align="center">
+      <strong>AMINOTKARTIK</strong><br><br>
+      <img src="./profile-3d-contrib/second-account.svg" width="100%" alt="aminotkartik 3D contributions">
+    </td>
+  </tr>
+</table>
 
-<!--
-**whatelsekartik/whatelsekartik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>SITEMANGO</strong><br><br>
+  <img src="./profile-3d-contrib/third-account.svg" width="75%" alt="sitemango 3D contributions">
+</p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <sub>Three accounts. One skyline. Updated daily.</sub>
+</p>
