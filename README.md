@@ -2,7 +2,9 @@
 
 ## Contribution Skyline
 
-![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
+<img src="./profile-3d-contrib/profile-customize.svg"
+     width="100%"
+     alt="3D Contribution Skyline">
 
 <!--
 **whatelsekartik/whatelsekartik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
