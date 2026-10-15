@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compose a single warm, readable SVG board containing the banner and 3 graphs."""
+"""Compose the warm contribution board; the clickable profile banner is shown separately in the README."""
 from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
@@ -77,38 +77,37 @@ def text(board, value, x, y, size, fill, family="Arial, Helvetica, sans-serif",
 
 def main():
     board = ET.Element(tag("svg"), {
-        "width": "1200", "height": "1640", "viewBox": "0 0 1200 1640",
+        "width": "1200", "height": "1330", "viewBox": "0 0 1200 1330",
         "role": "img", "aria-labelledby": "profile-board-title profile-board-desc",
     })
     title = ET.SubElement(board, tag("title"), {"id": "profile-board-title"})
-    title.text = "Kartik Gaikwad — warm minimal profile and contribution skyline"
+    title.text = "Kartik Gaikwad — warm minimal three-account contribution skyline"
     desc = ET.SubElement(board, tag("desc"), {"id": "profile-board-desc"})
-    desc.text = "Ivory and terracotta profile artwork with three contribution graphs arranged two above and one centred below."
+    desc.text = "Ivory and terracotta activity artwork with three contribution graphs arranged two above and one centred below."
 
     # Warm paper surround and a subtly lighter central sheet.
-    rect(board, 0, 0, 1200, 1640, "#eee3d5")
-    rect(board, 14, 14, 1172, 1612, "#fbf7f0", 26, "#dfcbb6", 2)
+    rect(board, 0, 0, 1200, 1330, "#eee3d5")
+    rect(board, 14, 14, 1172, 1302, "#fbf7f0", 26, "#dfcbb6", 2)
 
-    # Preserve the profile header artwork, then compose the whole activity section
-    # onto the same warm canvas so there is no mismatched page-coloured gap.
-    embed_svg(board, "profile-header.svg", 35, 30, 1130, 282.5, "profile-header")
-    embed_svg(board, "profile-section-contributions.svg", 40, 340, 1120, 149.33, "profile-section")
+    # The profile-header.svg is intentionally separate so the README can make
+    # that banner alone clickable without making every graph a website link.
+    embed_svg(board, "profile-section-contributions.svg", 40, 30, 1120, 149.33, "profile-section")
 
     # Top row: two matching contribution cards.
-    rect(board, 34, 512, 552, 412, "#f1e6d8", 18, "#dfcbb6", 1.5)
-    rect(board, 614, 512, 552, 412, "#f1e6d8", 18, "#dfcbb6", 1.5)
-    text(board, "01 / WHATELSEKARTIK", 54, 548, 14, "#82452f", weight="bold", letter_spacing=1.5)
-    text(board, "02 / AMINOTKARTIK", 634, 548, 14, "#82452f", weight="bold", letter_spacing=1.5)
-    embed_svg(board, "profile-3d-contrib/main-account.svg", 44, 560, 532, 353.125, "graph-main")
-    embed_svg(board, "profile-3d-contrib/second-account.svg", 624, 560, 532, 353.125, "graph-second")
+    rect(board, 34, 202, 552, 412, "#f1e6d8", 18, "#dfcbb6", 1.5)
+    rect(board, 614, 202, 552, 412, "#f1e6d8", 18, "#dfcbb6", 1.5)
+    text(board, "01 / WHATELSEKARTIK", 54, 238, 14, "#82452f", weight="bold", letter_spacing=1.5)
+    text(board, "02 / AMINOTKARTIK", 634, 238, 14, "#82452f", weight="bold", letter_spacing=1.5)
+    embed_svg(board, "profile-3d-contrib/main-account.svg", 44, 250, 532, 353.125, "graph-main")
+    embed_svg(board, "profile-3d-contrib/second-account.svg", 624, 250, 532, 353.125, "graph-second")
 
     # Third card, optically centred below the top pair.
-    rect(board, 190, 944, 820, 570, "#f1e6d8", 20, "#dfcbb6", 1.5)
-    text(board, "03 / SITEMANGO", 220, 981, 14, "#82452f", weight="bold", letter_spacing=1.5)
-    embed_svg(board, "profile-3d-contrib/third-account.svg", 220, 994, 760, 504.6875, "graph-sitemango")
+    rect(board, 190, 634, 820, 570, "#f1e6d8", 20, "#dfcbb6", 1.5)
+    text(board, "03 / SITEMANGO", 220, 671, 14, "#82452f", weight="bold", letter_spacing=1.5)
+    embed_svg(board, "profile-3d-contrib/third-account.svg", 220, 684, 760, 504.6875, "graph-sitemango")
 
-    # Retain the matching footer design.
-    embed_svg(board, "profile-footer.svg", 40, 1520, 1120, 98, "profile-footer")
+    # Matching footer, with breathing room below the last card.
+    embed_svg(board, "profile-footer.svg", 40, 1210, 1120, 98, "profile-footer")
 
     Path("profile-board.svg").write_bytes(
         ET.tostring(board, encoding="utf-8", xml_declaration=True)
