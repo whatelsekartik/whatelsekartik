@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution skyline</title>
+  <desc id="desc">Warm ivory section banner with espresso text and muted terracotta accents.</desc>
+  <rect width="1200" height="160" rx="18" fill="#f8f3eb"/>
+  <rect x="0" y="0" width="10" height="160" rx="5" fill="#bc754e"/>
+  <text x="54" y="52" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="4" fill="#9c543a">ACTIVITY &amp; CONSISTENCY</text>
+  <text x="50" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="700" fill="#40342c">Contribution skyline</text>
+  <text x="54" y="137" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#76675a">Three accounts · Three independent graphs</text>
+  <circle cx="1092" cy="78" r="37" fill="#ead8c5"/>
+  <circle cx="1092" cy="78" r="22" fill="#bc754e"/>
+  <circle cx="1092" cy="78" r="8" fill="#f8f3eb"/>
+</svg>
